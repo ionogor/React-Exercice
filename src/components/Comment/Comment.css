@@ -1,0 +1,7 @@
+.comments {
+  display: flex;
+  justify-content: space-between;
+  color: blue;
+  margin: 0;
+  padding: 0;
+}

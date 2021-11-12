@@ -1,7 +1,6 @@
 import React from "react";
 import "./Post.css";
-import Comment from "./Comment/Comment";
-
+import Comment from "../Comment/Comment";
 const Post = (props) => {
   return (
     <div className="posts-container-wrapper">
@@ -9,7 +8,9 @@ const Post = (props) => {
       {props.posts.map((post) => {
         return (
           <div>
+            <p className="post-header">{post.username}</p>
             <img src={post.imageUrl} alt="avatar" style={{ width: "100%" }} />
+            <div>{post.likes}</div>
             <div>
               <Comment comments={post.comments} />
             </div>

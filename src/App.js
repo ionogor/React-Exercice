@@ -1,4 +1,5 @@
 import Post from "./components/Post/Post";
+import Search from "./components/SearchBar/SearchBar";
 
 import postsList from "./data";
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Post posts={postsList} />
+      <Search />
     </div>
   );
 }

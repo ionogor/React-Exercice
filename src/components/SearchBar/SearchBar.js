@@ -1,7 +1,13 @@
 import React from "react";
 
-const componentName = () => {
-  return <div className="search"></div>;
+const Search = () => {
+  return (
+    <div>
+      <input name="input" placeholder="Search">
+        Input
+      </input>
+    </div>
+  );
 };
 
-export default componentName;
+export default Search;
