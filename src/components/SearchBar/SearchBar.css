@@ -1,6 +1,30 @@
-.search {
+.navbar {
   width: 100%;
   margin: 10px;
-  top: 20px;
-  border: 1px solid red;
+  height: 50px;
+  background-color: rgb(251, 251, 255);
+  border-bottom: 1px solid rgb(126, 124, 124);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.icon-wrapper img {
+  padding: 10px;
+}
+input[type="text"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid rgba(143, 143, 143, 0.8);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="text"]:hover,
+select {
+  border: 1px solid tomato;
 }

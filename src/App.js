@@ -10,8 +10,8 @@ function App() {
   //props-> properties
   return (
     <div className="App">
-      <Post posts={postsList} />
       <Search />
+      <Post posts={postsList} />
     </div>
   );
 }

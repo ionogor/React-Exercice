@@ -7,7 +7,6 @@
   width: 33%;
   min-width: 400px;
   margin: 5px auto;
-  border: 1px solid red;
 }
 .post-header {
   display: flex;
@@ -40,4 +39,20 @@
   height: 80%;
   margin: 5px;
   border-radius: 50%;
+}
+.likes-comment {
+  display: flex;
+  margin: 10px;
+}
+.qt-like,
+.qt-comments {
+  position: relative;
+  color: white;
+  margin: -7px;
+  font-size: 10px;
+  background: red;
+  border-radius: 10px;
+  width: 17px;
+  height: 17px;
+  right: 10px;
 }

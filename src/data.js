@@ -8,6 +8,8 @@ const postsList = [
       "https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1876&q=80",
     likes: 400,
     timestamp: "July 17th 2017, 12:42:40 pm",
+    icon: "https://img.icons8.com/material-outlined/2x/like.png",
+    mess: "https://img.icons8.com/metro/344/comments.png",
     comments: [
       {
         id: 22,
@@ -35,6 +37,8 @@ const postsList = [
       "https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3750&q=80",
     likes: 4307,
     timestamp: "July 15th 2017, 03:12:09 pm",
+    icon: "https://img.icons8.com/material-outlined/2x/like.png",
+    mess: "https://img.icons8.com/metro/344/comments.png",
     comments: [
       {
         id: 36,
@@ -68,6 +72,8 @@ const postsList = [
       "https://tk-assets.lambdaschool.com/69cf901b-f96d-466e-a745-ff2a01effac9_philz-image.jpg",
     likes: 400,
     timestamp: "July 17th 2017, 12:42:40 pm",
+    icon: "https://img.icons8.com/material-outlined/2x/like.png",
+    mess: "https://img.icons8.com/metro/344/comments.png",
     comments: [
       {
         id: 31,
@@ -96,6 +102,8 @@ const postsList = [
       "https://tk-assets.lambdaschool.com/89d13918-b7a2-4b40-9658-f376ea3f6b59_37131538_213683546146400_1083714364399157248_n.jpg",
     likes: 4307,
     timestamp: "July 15th 2017, 03:12:09 pm",
+    icon: "https://img.icons8.com/material-outlined/2x/like.png",
+    mess: "https://img.icons8.com/metro/344/comments.png",
     comments: [
       {
         id: 41,
@@ -133,6 +141,8 @@ const postsList = [
       "https://tk-assets.lambdaschool.com/43bf01f9-319c-469d-8cf5-0120fe1007f1_yosemite.jpg",
     likes: 5306,
     timestamp: "July 14th 2017, 10:04:08 am",
+    icon: "https://img.icons8.com/material-outlined/2x/like.png",
+    mess: "https://img.icons8.com/metro/344/comments.png",
     comments: [
       {
         id: 51,
